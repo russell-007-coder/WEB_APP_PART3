@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block content %}
+<form action="/results/new" method="POST">
+    <div class="row">
+        <div class="col">
+            <label for="GameNumber">Game Number</label>
+            <input id="GameNumber" type="text" class="form-control" placeholder="Game Number" name="GameNumber">
+        </div>
+        <div class="col">
+            <label for="GameLength">Game Length</label>
+            <input id="GameLength" type="text" class="form-control" placeholder="Game Length" name="GameLength">
+        </div>
+    </div>
+
+
+    <button type="submit" class="btn btn-success">Success</button>
+
+</form>
+
+{% endblock %}
