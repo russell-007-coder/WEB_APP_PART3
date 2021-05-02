@@ -11,4 +11,3 @@ COPY . /app
 
 CMD python app.py
 
-port: 32000
